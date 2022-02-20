@@ -5,8 +5,13 @@
 }
 
 body {
+	/* entire page background color */
 	background-color: #d9dcd6;
 }
+
+/*************************************************************
+* Header: 'Horiseon heading at top left color and font' *
+*************************************************************/
 
 header {
 	padding: 20px;
@@ -21,15 +26,18 @@ header {
 }
 
 header h1 {
+	/* header 'Hori' */
 	display: inline-block;
 	font-size: 48px;
 }
 
 header h1 .seo {
+	/* header 'seo' */
 	color: #d9dcd6;
 }
 
 header nav {
+	/* header navigation bar */
 	padding-top: 15px;
 	margin-right: 20px;
 	float: right;
@@ -42,24 +50,33 @@ header nav {
 }
 
 header nav ul {
+	/* header list style type */
 	list-style-type: none;
 }
 
 header nav ul li {
+	/* header display setting */
 	display: inline-block;
 	margin-left: 25px;
 }
 
 a {
+	/* navigation bar text and decoration */
 	color: #ffffff;
 	text-decoration: none;
 }
 
 p {
+	/* paragraph font size */
 	font-size: 16px;
 }
 
+/*************************************************************
+* Hero : The large full width photo of a business meeting *
+*************************************************************/
+
 #hero {
+	/* Hero dimentions, image, and positioning */
 	height: 800px;
 	width: 100%;
 	margin-bottom: 25px;
@@ -69,22 +86,34 @@ p {
 }
 
 .float-left {
+	/* image float and margin area size */
 	float: left;
 	margin-right: 25px;
 }
 
 .float-right {
+	/* image float and margin area size */
 	float: right;
 	margin-left: 25px;
 }
 
+/*************************************************************
+* Content : The entire content area box on the bottom left *
+*************************************************************/
+
 #content {
+	/* content location */
 	width: 75%;
 	display: inline-block;
 	margin-left: 20px;
 }
 
+/*************************************************************
+* Benefits: The vertical box at the right *
+*************************************************************/
+
 #benefits {
+	/* dimentions and visual representation of the vertial box as a collective */
 	margin-right: 20px;
 	padding: 20px;
 	clear: both;
@@ -100,36 +129,43 @@ p {
 }
 
 #benefit-lead {
+	/* lead generation section */
 	margin-bottom: 32px;
 	color: #ffffff;
 }
 
 #benefit-brand {
+	/* brand awareness section */
 	margin-bottom: 32px;
 	color: #ffffff;
 }
 
 #benefit-cost {
+	/* cost management section */
 	margin-bottom: 32px;
 	color: #ffffff;
 }
 
 #benefit-lead h3 {
+	/* lead generation heading */
 	margin-bottom: 10px;
 	text-align: center;
 }
 
 #benefit-brand h3 {
+	/* brand awareness heading */
 	margin-bottom: 10px;
 	text-align: center;
 }
 
 #benefit-cost h3 {
+	/* cost management heading */
 	margin-bottom: 10px;
 	text-align: center;
 }
 
 #benefit-lead img {
+	/* lead generation image */
 	display: block;
 	margin: 10px
 		auto;
@@ -137,6 +173,7 @@ p {
 }
 
 #benefit-brand img {
+	/* brand awareness image */
 	display: block;
 	margin: 10px
 		auto;
@@ -144,6 +181,7 @@ p {
 }
 
 #benefit-cost img {
+	/* cost management image */
 	display: block;
 	margin: 10px
 		auto;
@@ -153,6 +191,7 @@ p {
 #search-engine-optimization,
 #online-reputation-management,
 #social-media-marketing {
+	/* section dimentions of #content */
 	margin-bottom: 20px;
 	padding: 50px;
 	height: 300px;
@@ -166,33 +205,44 @@ p {
 }
 
 #search-engine-optimization img {
+	/* first section of #content img dimentions */
 	max-height: 200px;
 }
 
 #online-reputation-management img {
+	/* second section of #content img dimentions */
 	max-height: 200px;
 }
 
 #social-media-marketing img {
+	/* third section of #content img dimentions */
 	max-height: 200px;
 }
 
 #search-engine-optimization h2 {
+	/* first section of #content text dimentions */
 	margin-bottom: 20px;
 	font-size: 36px;
 }
 
 #online-reputation-management h2 {
+	/* second section of #content text dimentions */
 	margin-bottom: 20px;
 	font-size: 36px;
 }
 
 #social-media-marketing h2 {
+	/* third section of #content text dimentions */
 	margin-bottom: 20px;
 	font-size: 36px;
 }
 
+/*************************************************************
+* Footer: Located at middle bottom *
+*************************************************************/
+
 footer {
+	/* footer font, location and dimentions */
 	padding: 30px;
 	clear: both;
 	font-family: "Trebuchet MS",
@@ -205,5 +255,6 @@ footer {
 }
 
 footer h2 {
+	/* footer second line font size */
 	font-size: 20px;
 }
